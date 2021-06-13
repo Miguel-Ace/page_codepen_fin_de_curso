@@ -84,6 +84,9 @@ body{
     font-size: 35px;
     font-family: 'Montserrat', sans-serif;
 }
+.parte-izquierda-cuerpo > .parrafo-btn > .parrafo img{
+    width: 40px;
+}
 .parte-izquierda-cuerpo > .parrafo-btn > .parrafo-con {
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
@@ -149,5 +152,27 @@ body{
 /*---------pie de página---------*/
 .contenedor-pie-página{
     display: flex;
+    justify-content: center;
     width: 100%;
+}
+.contenedor-pie-página > .contenedor-secciones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3f454b;
+    width: 100%;
+}
+.contenedor-pie-página > .contenedor-secciones > .seccion{
+    padding: 20px 40px 20px 40px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #848b89;
+}
+.contenedor-pie-página > .contenedor-secciones > .seccion a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.contenedor-pie-página > .contenedor-secciones > .seccion a b{
+    font-size: 25px;
 }
