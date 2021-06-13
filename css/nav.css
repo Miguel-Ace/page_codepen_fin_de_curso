@@ -1,0 +1,99 @@
+body{
+    margin: 1px 0 0 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/*---------nav---------*/
+.contenedor{
+    display: flex;
+    justify-content: center;
+    background: black;
+    width: 100%;
+}
+.contenedor-nav{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 2fr 50px 2fr);
+    margin: 3px 0;
+    color: white;
+    width: 100%;
+}
+.contenedor-nav > .logo{
+    padding: 10px 0 0 20px;
+    width: 250px;
+}
+.contenedor-nav > .logo img{
+    width: 250px;
+}
+
+.contenedor-nav > .contenedor-enlace{
+    display: grid;
+    grid-template-columns: repeat(1,);
+    padding: 10px;
+}
+.contenedor-nav > .contenedor-enlace > .text-explore{
+    display: flex;
+    margin-left: 7.5%;
+    align-items: center;
+    height: 0;
+    color: gold;
+}
+.contenedor-nav > .contenedor-enlace > .enlaces{
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+    align-items: center;
+    text-align: end;
+}
+.contenedor-nav > .contenedor-enlace > .enlaces > .enlace a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.3s;
+    border-bottom: 1px solid transparent;
+}
+.contenedor-nav > .contenedor-enlace > .enlaces > .enlace a:hover{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 2px solid ;
+}
+.contenedor-nav > .contenedor-enlace > .enlaces > .spark{
+    color: #dad6d6;
+    font-size: 15px;
+    cursor: pointer;
+}
+.contenedor-nav > .buscador-login{
+    display: flex;
+    justify-content: flex-end;
+    grid-gap: 1.6vh;
+    align-items: center;
+    
+}
+.contenedor-nav > .buscador-login > .icon-buscar{
+    font-size: 30px;
+    color: #576370;
+    padding: 15px;
+    transition: 0.4s;
+}
+.contenedor-nav > .buscador-login > .icon-buscar:hover{
+    color: white;
+}
+.contenedor-nav > .buscador-login div{
+    font-size: 16px;
+    padding: 15px 30px;
+}
+.contenedor-nav > .buscador-login > .create{
+    cursor: pointer;
+}
+.contenedor-nav > .buscador-login > .create i{
+    margin-left: 10px;
+    font-size: 20px;
+    color: #4ccc7b;
+}
+.contenedor-nav > .buscador-login > .create,.login,.sign-up{
+    background: #3f454b;
+    border-radius: 4px;
+}
+.contenedor-nav > .buscador-login div a{
+    text-decoration: none;
+    color: white;
+}

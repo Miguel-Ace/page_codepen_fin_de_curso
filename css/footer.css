@@ -1,0 +1,37 @@
+/*---------pie de página---------*/
+.contenedor-pie-página{
+    display: grid;
+    grid-template-columns: repeat(2,);
+    width: 100%;
+}
+.contenedor-pie-página > .contenedor-secciones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3f454b;
+    box-shadow: 0 -1rem 2rem 0 rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.contenedor-pie-página > .contenedor-secciones > .seccion{
+    padding: 20px 40px 20px 40px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #848b89;
+}
+.contenedor-pie-página > .contenedor-secciones > .seccion a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.4s;
+}
+.contenedor-pie-página > .contenedor-secciones > .seccion a:hover{
+    color: #7e92a7;
+}
+.contenedor-pie-página > .contenedor-secciones > .seccion a b{
+    color: white;
+    font-size: 25px;
+}
+.background-de-relleno{
+    height: 36px;
+    background: #1c1c24;
+}
