@@ -1,3 +1,7 @@
+body{
+    margin: 1px 0 0 0;
+    font-family: 'Open Sans', sans-serif;
+}
 /*---------nav---------*/
 .contenedor{
     display: flex;
@@ -45,10 +49,83 @@
     cursor: pointer;
 }
 .contenedor-nav > .buscador-login > .create,.login,.sign-up{
-    background: rgba(255,255,255,0.5);
+    background: #3f454b;
     border-radius: 2px;
 }
 .contenedor-nav > .buscador-login div a{
     text-decoration: none;
     color: white;
+}
+
+/*---------cuerpo---------*/
+.contenedor-cuerpo{
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient( to right, rgba(22, 23, 26,0.6),rgba(22, 23, 26,1));
+}
+.contenedor-cuerpo > .contenedor-cuerpo-centro{
+    display: grid;
+    grid-template-columns: repeat(1,1fr 1fr);
+    align-items: center;
+    width: 100%;
+}
+.contenedor-cuerpo-centro > .parte-izquierda-cuerpo{
+    margin-left: 8%;
+    color: white;
+}
+.parte-izquierda-cuerpo > .parrafo {
+    font-size: 35px;
+}
+.parte-izquierda-cuerpo > .parrafo-con {
+    font-size: 25px;
+}
+.parte-izquierda-cuerpo > .btn-contenedor {
+    display: flex;
+    margin: 30px 0 0 0;
+    width: 100%;
+}
+.parte-izquierda-cuerpo > .btn-contenedor > .btn{
+    display: grid;
+    grid-template-columns: repeat(1,1fr 1fr);
+    grid-gap: 15px;
+    width: 50%;
+}
+.parte-izquierda-cuerpo > .btn-contenedor > .btn > .sign-up{
+    background: #50c884;
+    text-align: center;
+    width: 280px;
+    padding: 15px 0 15px 0;
+    border-radius: 3px;
+    font-size: 25px;
+}
+.parte-izquierda-cuerpo > .btn-contenedor > .btn > .sign-up a{
+    text-decoration: none;
+    color: black;
+}
+.parte-izquierda-cuerpo > .btn-contenedor > .btn > .learn-more{
+    background: black;
+    text-align: center;
+    width: 230px;
+    padding: 15px 0 15px 0;
+    border-radius: 3px;
+    font-size: 25px;
+}
+.parte-izquierda-cuerpo > .btn-contenedor > .btn > .learn-more a{
+    text-decoration: none;
+    color: white;
+}
+.parte-derecha-cuerpo >{
+    /* transform: translateY(5rem); */
+    /* transform: translateX(5rem); */
+}
+.contenedor-cuerpo-centro > .parte-derecha-cuerpo > .imagen img{
+    width: 700px;
+}
+.parte-derecha-cuerpo > .titulo h4 {
+    color: white;
+    margin-left: 15px;
+    transform: translateY(20px);
+}
+.parte-derecha-cuerpo > .titulo h4 b span {
+    color: #6abfe3;
 }
