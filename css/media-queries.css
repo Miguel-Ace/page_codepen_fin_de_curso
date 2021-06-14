@@ -1,4 +1,17 @@
-@media (max-width: 850px){
+@media(max-width: 1317px){
+    /*-------body------*/
+    .contenedor-cuerpo-centro{
+        flex-direction: column;
+    }
+    .contenedor-cuerpo-centro > .parte-derecha-cuerpo{
+        width: auto;
+    }
+    .contenedor-cuerpo-centro > .parte-derecha-cuerpo > .titulo-img > .imagen img{
+        width: 900px;
+    }
+}
+
+@media (max-width: 1095px){
     /*-------nav------*/
     .contenedor-nav{
         grid-template-columns: repeat(1, 1fr) !important;
@@ -31,8 +44,12 @@
         flex-direction: column;
     }
     .contenedor-cuerpo-centro > .parte-izquierda-cuerpo > .parrafo-btn > .btn-contenedor{
-        justify-content: center;
-        width: 23%;
+        width: 100%;
+    }.contenedor-cuerpo-centro > .parte-izquierda-cuerpo > .parrafo-btn > .btn-contenedor > .btn{
+        width: 95%;
+    }
+    .parte-izquierda-cuerpo > .parrafo-btn > .btn-contenedor > .btn > .sign-up , .learn-more{
+        width: 300px;
     }
     .contenedor-cuerpo-centro > .parte-derecha-cuerpo{
         text-align: center;
@@ -40,7 +57,7 @@
         width: 100%;
     }
     .contenedor-cuerpo-centro > .parte-derecha-cuerpo > .titulo-img > .imagen img{
-        width: 400px;
+        width: 450px;
     }
     .parte-izquierda-cuerpo > .parrafo-btn > .parrafo , .parrafo-con{
         text-align: center;
@@ -57,5 +74,27 @@
     }
     .contenedor-pie-página > .contenedor-secciones > .seccion a{
         font-size: 16px;
+    }
+
+    @media (max-width: 450px){
+        .contenedor-nav > .buscador-login{
+            flex-direction: column;
+        }
+        .parte-izquierda-cuerpo > .parrafo-btn > .btn-contenedor > .btn{
+            display: flex;
+            width: 100%;
+            padding: 0;
+            flex-direction: column;
+        }
+        .parte-izquierda-cuerpo > .parrafo-btn > .parrafo{
+            font-size: 15px;
+        }
+        .parte-izquierda-cuerpo > .parrafo-btn > .parrafo-con{
+            font-size: 20px;
+        }
+        
+        .contenedor-cuerpo-centro > .parte-derecha-cuerpo > .titulo-img > .imagen img{
+            width: 300px;
+        }
     }
 }
